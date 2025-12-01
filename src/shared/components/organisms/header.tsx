@@ -11,22 +11,6 @@ import { useNavigate } from "react-router-dom";
 const Header = () => {
   const navigate = useNavigate();
 
-  const renderSettingButton = () => {
-    return (
-      <ButtonWithIcon
-        iconName="setting"
-        iconClassName="text-muted-foreground"
-        width="6"
-        height="6"
-        label={<span className="hidden md:inline">Settings</span>}
-        aria-label="Settings"
-        iconPosition="left"
-        variant="ghost"
-        className="hover:bg-accent"
-      />
-    );
-  };
-
   const renderUserButton = () => {
     return (
       <Popover>
@@ -61,7 +45,6 @@ const Header = () => {
         <CompanyImageWithTitle title="Ekart" titleClassName="hidden sm:block" />
 
         <div className="flex items-center md:gap-6 justify-self-end">
-          {renderSettingButton()}
           {renderUserButton()}
         </div>
       </div>
