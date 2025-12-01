@@ -1,4 +1,4 @@
-import { APP_ROUTES } from "@/shared/constants/app-routes.constant";
+import { APP_ROUTES } from "./app-routes.constant";
 
 export const languages = [
   "English",
