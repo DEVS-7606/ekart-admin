@@ -1,0 +1,18 @@
+export const MOCK_UNITS = [
+  { id: 1, srNo: 1, name: "Celsius", code: "°C" },
+  { id: 2, srNo: 2, name: "Fahrenheit", code: "°F" },
+  { id: 3, srNo: 3, name: "RPM", code: "RPM" },
+  { id: 4, srNo: 4, name: "Bar", code: "bar" },
+  { id: 5, srNo: 5, name: "PSI", code: "PSI" },
+  { id: 6, srNo: 6, name: "Meter", code: "m" },
+  { id: 7, srNo: 7, name: "Millimeter", code: "mm" },
+  { id: 8, srNo: 8, name: "Kilowatt", code: "kW" },
+  { id: 9, srNo: 9, name: "On Off", code: "On/Off" },
+  { id: 10, srNo: 10, name: "Liters per Minute", code: "L/min" },
+  { id: 11, srNo: 11, name: "Millimeter per Second", code: "mm/s" },
+  { id: 12, srNo: 12, name: "Relative Humidity", code: "% RH" },
+  { id: 13, srNo: 13, name: "Count", code: "Count" },
+  { id: 14, srNo: 14, name: "Liters", code: "Liters" },
+  { id: 15, srNo: 15, name: "Power Factor", code: "PF" },
+  { id: 16, srNo: 16, name: "Index", code: "Index" },
+];

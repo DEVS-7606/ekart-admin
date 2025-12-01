@@ -1,0 +1,530 @@
+export const MOCK_CITIES = [
+  { id: 1, name: "Surat", code: "smc", state: "Gujarat", country: "India" },
+  {
+    id: 2,
+    name: "Mumbai",
+    code: "bom",
+    state: "Maharashtra",
+    country: "India",
+  },
+  {
+    id: 3,
+    name: "Bengaluru",
+    code: "blr",
+    state: "Karnataka",
+    country: "India",
+  },
+  {
+    id: 4,
+    name: "Chennai",
+    code: "chn",
+    state: "Tamil Nadu",
+    country: "India",
+  },
+  { id: 5, name: "Jaipur", code: "jai", state: "Rajasthan", country: "India" },
+  { id: 6, name: "Amritsar", code: "asr", state: "Punjab", country: "India" },
+  { id: 7, name: "Kochi", code: "coch", state: "Kerala", country: "India" },
+  {
+    id: 8,
+    name: "Kolkata",
+    code: "kol",
+    state: "West Bengal",
+    country: "India",
+  },
+
+  {
+    id: 9,
+    name: "Los Angeles",
+    code: "la",
+    state: "California",
+    country: "United States",
+  },
+  {
+    id: 10,
+    name: "San Francisco",
+    code: "sf",
+    state: "California",
+    country: "United States",
+  },
+  {
+    id: 11,
+    name: "Houston",
+    code: "hou",
+    state: "Texas",
+    country: "United States",
+  },
+  {
+    id: 12,
+    name: "Orlando",
+    code: "orl",
+    state: "Florida",
+    country: "United States",
+  },
+  {
+    id: 13,
+    name: "Chicago",
+    code: "chi",
+    state: "Illinois",
+    country: "United States",
+  },
+  {
+    id: 14,
+    name: "Seattle",
+    code: "sea",
+    state: "Washington",
+    country: "United States",
+  },
+  {
+    id: 15,
+    name: "New York City",
+    code: "nyc",
+    state: "New York",
+    country: "United States",
+  },
+
+  { id: 16, name: "Toronto", code: "tor", state: "Ontario", country: "Canada" },
+  { id: 17, name: "Montreal", code: "mtl", state: "Quebec", country: "Canada" },
+  {
+    id: 18,
+    name: "Vancouver",
+    code: "van",
+    state: "British Columbia",
+    country: "Canada",
+  },
+  { id: 19, name: "Calgary", code: "cgy", state: "Alberta", country: "Canada" },
+  {
+    id: 20,
+    name: "Winnipeg",
+    code: "wpg",
+    state: "Manitoba",
+    country: "Canada",
+  },
+
+  {
+    id: 21,
+    name: "Sydney",
+    code: "syd",
+    state: "New South Wales",
+    country: "Australia",
+  },
+  {
+    id: 22,
+    name: "Melbourne",
+    code: "mel",
+    state: "Victoria",
+    country: "Australia",
+  },
+  {
+    id: 23,
+    name: "Brisbane",
+    code: "bne",
+    state: "Queensland",
+    country: "Australia",
+  },
+  {
+    id: 24,
+    name: "Perth",
+    code: "per",
+    state: "Western Australia",
+    country: "Australia",
+  },
+  {
+    id: 25,
+    name: "Hobart",
+    code: "hob",
+    state: "Tasmania",
+    country: "Australia",
+  },
+
+  {
+    id: 26,
+    name: "London",
+    code: "ldn",
+    state: "England",
+    country: "United Kingdom",
+  },
+  {
+    id: 27,
+    name: "Edinburgh",
+    code: "edi",
+    state: "Scotland",
+    country: "United Kingdom",
+  },
+  {
+    id: 28,
+    name: "Cardiff",
+    code: "cdf",
+    state: "Wales",
+    country: "United Kingdom",
+  },
+  {
+    id: 29,
+    name: "Belfast",
+    code: "bel",
+    state: "Northern Ireland",
+    country: "United Kingdom",
+  },
+
+  { id: 30, name: "Munich", code: "muc", state: "Bavaria", country: "Germany" },
+  { id: 31, name: "Berlin", code: "berc", state: "Berlin", country: "Germany" },
+  { id: 32, name: "Leipzig", code: "lei", state: "Saxony", country: "Germany" },
+  {
+    id: 33,
+    name: "Frankfurt",
+    code: "fra",
+    state: "Hesse",
+    country: "Germany",
+  },
+
+  {
+    id: 34,
+    name: "Paris",
+    code: "par",
+    state: "Île-de-France",
+    country: "France",
+  },
+  {
+    id: 35,
+    name: "Nice",
+    code: "nic",
+    state: "Provence-Alpes-Côte d’Azur",
+    country: "France",
+  },
+  { id: 36, name: "Rouen", code: "rou", state: "Normandy", country: "France" },
+  { id: 37, name: "Rennes", code: "ren", state: "Brittany", country: "France" },
+
+  { id: 38, name: "Milan", code: "mil", state: "Lombardy", country: "Italy" },
+  { id: 39, name: "Florence", code: "flr", state: "Tuscany", country: "Italy" },
+  { id: 40, name: "Palermo", code: "pal", state: "Sicily", country: "Italy" },
+  { id: 41, name: "Venice", code: "ven", state: "Veneto", country: "Italy" },
+
+  {
+    id: 42,
+    name: "São Paulo",
+    code: "spc",
+    state: "São Paulo",
+    country: "Brazil",
+  },
+  {
+    id: 43,
+    name: "Rio de Janeiro",
+    code: "rjc",
+    state: "Rio de Janeiro",
+    country: "Brazil",
+  },
+  { id: 44, name: "Salvador", code: "sal", state: "Bahia", country: "Brazil" },
+  { id: 45, name: "Curitiba", code: "cur", state: "Paraná", country: "Brazil" },
+
+  { id: 46, name: "Tokyo", code: "tky", state: "Tokyo", country: "Japan" },
+  { id: 47, name: "Osaka", code: "osk", state: "Osaka", country: "Japan" },
+  { id: 48, name: "Sapporo", code: "sap", state: "Hokkaido", country: "Japan" },
+  { id: 49, name: "Kyoto", code: "kyt", state: "Kyoto", country: "Japan" },
+
+  {
+    id: 50,
+    name: "Guangzhou",
+    code: "gz",
+    state: "Guangdong",
+    country: "China",
+  },
+  { id: 51, name: "Beijing", code: "bjc", state: "Beijing", country: "China" },
+  {
+    id: 52,
+    name: "Shanghai",
+    code: "shc",
+    state: "Shanghai",
+    country: "China",
+  },
+  { id: 53, name: "Chengdu", code: "cd", state: "Sichuan", country: "China" },
+
+  {
+    id: 54,
+    name: "Johannesburg",
+    code: "jhb",
+    state: "Gauteng",
+    country: "South Africa",
+  },
+  {
+    id: 55,
+    name: "Cape Town",
+    code: "cpt",
+    state: "Western Cape",
+    country: "South Africa",
+  },
+  {
+    id: 56,
+    name: "Durban",
+    code: "dbn",
+    state: "KwaZulu-Natal",
+    country: "South Africa",
+  },
+
+  { id: 57, name: "Moscow", code: "msc", state: "Moscow", country: "Russia" },
+  {
+    id: 58,
+    name: "St. Petersburg",
+    code: "spb",
+    state: "Saint Petersburg",
+    country: "Russia",
+  },
+  {
+    id: 59,
+    name: "Kazan",
+    code: "kznc",
+    state: "Tatarstan",
+    country: "Russia",
+  },
+
+  {
+    id: 60,
+    name: "Guadalajara",
+    code: "gdl",
+    state: "Jalisco",
+    country: "Mexico",
+  },
+  {
+    id: 61,
+    name: "Monterrey",
+    code: "mty",
+    state: "Nuevo León",
+    country: "Mexico",
+  },
+
+  // Additional 49 mixed global cities
+  { id: 62, name: "Pune", code: "pun", state: "Maharashtra", country: "India" },
+  { id: 63, name: "Vadodara", code: "bdq", state: "Gujarat", country: "India" },
+  { id: 64, name: "Mysuru", code: "mys", state: "Karnataka", country: "India" },
+  {
+    id: 65,
+    name: "Madurai",
+    code: "mdr",
+    state: "Tamil Nadu",
+    country: "India",
+  },
+
+  {
+    id: 66,
+    name: "Dallas",
+    code: "dal",
+    state: "Texas",
+    country: "United States",
+  },
+  {
+    id: 67,
+    name: "Miami",
+    code: "mia",
+    state: "Florida",
+    country: "United States",
+  },
+  {
+    id: 68,
+    name: "Buffalo",
+    code: "buf",
+    state: "New York",
+    country: "United States",
+  },
+
+  { id: 69, name: "Ottawa", code: "ott", state: "Ontario", country: "Canada" },
+  { id: 70, name: "Halifax", code: "hfx", state: "Quebec", country: "Canada" },
+
+  {
+    id: 71,
+    name: "Adelaide",
+    code: "adl",
+    state: "South Australia",
+    country: "Australia",
+  },
+  {
+    id: 72,
+    name: "Canberra",
+    code: "cbr",
+    state: "New South Wales",
+    country: "Australia",
+  },
+
+  {
+    id: 73,
+    name: "Birmingham",
+    code: "bhm",
+    state: "England",
+    country: "United Kingdom",
+  },
+  {
+    id: 74,
+    name: "Glasgow",
+    code: "gla",
+    state: "Scotland",
+    country: "United Kingdom",
+  },
+
+  { id: 75, name: "Dresden", code: "dre", state: "Saxony", country: "Germany" },
+  { id: 76, name: "Dortmund", code: "dor", state: "Hesse", country: "Germany" },
+
+  {
+    id: 77,
+    name: "Cannes",
+    code: "can",
+    state: "Provence-Alpes-Côte d’Azur",
+    country: "France",
+  },
+  { id: 78, name: "Lille", code: "lil", state: "Normandy", country: "France" },
+
+  { id: 79, name: "Naples", code: "nap", state: "Sicily", country: "Italy" },
+  { id: 80, name: "Padua", code: "pad", state: "Veneto", country: "Italy" },
+
+  {
+    id: 81,
+    name: "Brasília",
+    code: "bsb",
+    state: "São Paulo",
+    country: "Brazil",
+  },
+  { id: 82, name: "Fortaleza", code: "for", state: "Bahia", country: "Brazil" },
+
+  { id: 83, name: "Nagasaki", code: "ngs", state: "Kyoto", country: "Japan" },
+  { id: 84, name: "Kobe", code: "kob", state: "Osaka", country: "Japan" },
+
+  { id: 85, name: "Wuhan", code: "wh", state: "Hubei", country: "China" },
+  {
+    id: 86,
+    name: "Shenzhen",
+    code: "sz",
+    state: "Guangdong",
+    country: "China",
+  },
+
+  {
+    id: 87,
+    name: "Pretoria",
+    code: "pta",
+    state: "Gauteng",
+    country: "South Africa",
+  },
+
+  {
+    id: 88,
+    name: "Yekaterinburg",
+    code: "yek",
+    state: "Moscow",
+    country: "Russia",
+  },
+
+  {
+    id: 89,
+    name: "Tijuana",
+    code: "tij",
+    state: "Baja California",
+    country: "Mexico",
+  },
+  { id: 90, name: "Puebla", code: "pue", state: "Puebla", country: "Mexico" },
+
+  // last 20 to reach 110+
+  { id: 91, name: "Rajkot", code: "rjt", state: "Gujarat", country: "India" },
+  {
+    id: 92,
+    name: "Nashik",
+    code: "nsk",
+    state: "Maharashtra",
+    country: "India",
+  },
+  {
+    id: 93,
+    name: "Belgaum",
+    code: "bgm",
+    state: "Karnataka",
+    country: "India",
+  },
+
+  {
+    id: 94,
+    name: "Portland",
+    code: "pdx",
+    state: "Washington",
+    country: "United States",
+  },
+  {
+    id: 95,
+    name: "Tampa",
+    code: "tmp",
+    state: "Florida",
+    country: "United States",
+  },
+
+  {
+    id: 96,
+    name: "Victoria",
+    code: "vicc",
+    state: "British Columbia",
+    country: "Canada",
+  },
+  {
+    id: 97,
+    name: "Hamilton",
+    code: "ham",
+    state: "Ontario",
+    country: "Canada",
+  },
+
+  {
+    id: 98,
+    name: "Geelong",
+    code: "glg",
+    state: "Victoria",
+    country: "Australia",
+  },
+  {
+    id: 99,
+    name: "Wollongong",
+    code: "wol",
+    state: "New South Wales",
+    country: "Australia",
+  },
+
+  {
+    id: 100,
+    name: "Liverpool",
+    code: "liv",
+    state: "England",
+    country: "United Kingdom",
+  },
+  {
+    id: 101,
+    name: "Aberdeen",
+    code: "abd",
+    state: "Scotland",
+    country: "United Kingdom",
+  },
+
+  {
+    id: 102,
+    name: "Nuremberg",
+    code: "nue",
+    state: "Bavaria",
+    country: "Germany",
+  },
+  { id: 103, name: "Hanover", code: "han", state: "Hesse", country: "Germany" },
+
+  {
+    id: 104,
+    name: "Marseille",
+    code: "mrs",
+    state: "Provence-Alpes-Côte d’Azur",
+    country: "France",
+  },
+  {
+    id: 105,
+    name: "Le Mans",
+    code: "lms",
+    state: "Brittany",
+    country: "France",
+  },
+
+  { id: 106, name: "Verona", code: "ver", state: "Veneto", country: "Italy" },
+  { id: 107, name: "Catania", code: "cta", state: "Sicily", country: "Italy" },
+
+  { id: 108, name: "Recife", code: "rec", state: "Bahia", country: "Brazil" },
+
+  { id: 109, name: "Fukuoka", code: "fuk", state: "Kyoto", country: "Japan" },
+
+  { id: 110, name: "Harbin", code: "hrb", state: "Hubei", country: "China" },
+];
