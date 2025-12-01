@@ -6,7 +6,7 @@ import Input from "@/shared/components/atoms/input";
 import { Label } from "@/shared/components/atoms/lable";
 import TitleAndSubtitle from "@/shared/components/molecules/titleAndSubtitle";
 import TagSelection from "@/shared/components/organisms/tagSelection";
-import type { ITag } from "@/pages/tags-master/type/tagMaster";
+import type { ITag } from "@/shared/types";
 import type { AlarmRow } from "@/shared/types/alarmMaster";
 
 interface AlarmFilterProps {

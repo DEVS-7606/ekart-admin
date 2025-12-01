@@ -1,4 +1,4 @@
-import type { IDataPointTemplateRow } from "@/pages/data-point-master/types";
+import type { IDataPointTemplateRow } from "@/shared/types";
 
 export const MOCK_DATA_POINT_TEMPLATES: IDataPointTemplateRow[] = [
   {

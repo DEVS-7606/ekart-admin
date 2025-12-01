@@ -1,4 +1,4 @@
-import type { DeviceTemplateRow } from "@/pages/device-master/type/deviceMaster";
+import type { DeviceTemplateRow } from "@/shared/types";
 
 export const deviceMasterMockData: DeviceTemplateRow[] = [
   {

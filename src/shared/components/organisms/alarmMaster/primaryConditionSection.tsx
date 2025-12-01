@@ -6,7 +6,7 @@ import Button from "@/shared/components/atoms/button";
 import InputField from "@/shared/components/molecules/InputField";
 import { SelectField } from "@/shared/components/molecules/selectDropdown";
 import type { AlarmFormValues } from "./alarmFormMultiStep";
-import type { IDataPointTemplateRow } from "@/pages/data-point-master/types";
+import type { IDataPointTemplateRow } from "@/shared/types";
 
 export type PrimaryConditionSectionProps = {
   form: UseFormReturn<AlarmFormValues>;

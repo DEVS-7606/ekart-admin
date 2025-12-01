@@ -1,4 +1,4 @@
-import type { ITag } from "@/pages/tags-master/type/tagMaster";
+import type { ITag } from "@/shared/types";
 
 export const MOCK_TAGS: ITag[] = [
   {

@@ -6,7 +6,7 @@ import {
 } from "@/shared/components/atoms/Typography";
 import { Checkbox } from "@/shared/components/atoms/checkbox";
 import SearchAutocomplete from "./searchAutocomplete";
-import type { ITag } from "@/pages/tags-master/type/tagMaster";
+import type { ITag } from "@/shared/types";
 
 interface TagSelectionProps {
   options: ITag[];

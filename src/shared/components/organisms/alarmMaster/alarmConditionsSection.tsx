@@ -5,7 +5,7 @@ import { MOCK_DATA_POINT_TEMPLATES } from "@/shared/constants/dataPointMaster.co
 import type { AlarmFormValues } from "./alarmFormMultiStep";
 import PrimaryConditionSection from "./primaryConditionSection";
 import OccurrenceConditionSection from "./occurrenceConditionSection";
-import type { IDataPointTemplateRow } from "@/pages/data-point-master/types";
+import type { IDataPointTemplateRow } from "@/shared/types";
 
 export type AlarmConditionsSectionProps = {
   form: UseFormReturn<AlarmFormValues>;

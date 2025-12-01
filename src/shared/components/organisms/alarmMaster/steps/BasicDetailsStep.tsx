@@ -7,7 +7,7 @@ import InputField from "@/shared/components/molecules/InputField";
 import { SelectField } from "@/shared/components/molecules/selectDropdown";
 import TagSelection from "@/shared/components/organisms/tagSelection";
 import { MOCK_TAGS } from "@/shared/constants/tagsMaster.constant";
-import type { ITag } from "@/pages/tags-master/type/tagMaster";
+import type { ITag } from "@/shared/types";
 import type { AlarmFormValues } from "../alarmFormMultiStep";
 
 type BasicDetailsStepProps = {

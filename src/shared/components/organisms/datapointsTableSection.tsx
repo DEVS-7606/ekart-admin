@@ -22,8 +22,7 @@ import type {
   DatapointsTableSectionProps,
 } from "@/shared/interfaces";
 import DatapointsActionBar from "@/shared/components/molecules/datapointsActionBar";
-import type { IDataPointTemplateRow } from "@/pages/data-point-master/types";
-import type { ITag, TagValue } from "@/pages/tags-master/type/tagMaster";
+import type { IDataPointTemplateRow, ITag, TagValue } from "@/shared/types";
 
 const POLLING_TIME_OPTIONS = [
   { label: "1s", value: "1s" },

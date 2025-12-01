@@ -10,7 +10,7 @@ import Button from "@/shared/components/atoms/button";
 import TagSelection from "@/shared/components/organisms/tagSelection";
 import { DataTable } from "@/shared/components/organisms/dataTable";
 import type { ColumnDef } from "@tanstack/react-table";
-import type { ITag } from "@/pages/tags-master/type/tagMaster";
+import type { ITag } from "@/shared/types";
 
 export interface TagSelectionOption {
   labelName: string;
